@@ -16,6 +16,20 @@ Traditional tools find API keys. **TokenSpot tells you what they can actually do
 | gitleaks | ✅ | ❌ | ❌ |
 | **TokenSpot** | ✅ | ✅ | ✅ |
 
+### The Problem
+Bug hunters waste hours manually verifying API key findings. 95% of "detected" keys are:
+- Public keys with zero privileges
+- Expired/revoked tokens
+- Test mode credentials
+
+### The Solution
+TokenSpot validates keys in real-time and tells you:
+- ✅ **Is it valid?**
+- 🔴 **What permissions does it have?**
+- 👤 **Which account does it belong to?**
+- ⚡ **How critical is this finding?**
+
+
 ## ⚡ Quick Start
 
 ```bash
