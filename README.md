@@ -34,7 +34,7 @@ TokenSpot validates keys in real-time and tells you:
 
 ```bash
 # Clone and install
-git clone https://github.com/yourusername/tokenspot.git
+git clone https://github.com/cafebase/tokenspot.git
 cd tokenspot
 pip install -e .
 
